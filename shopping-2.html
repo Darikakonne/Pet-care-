@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop the Best for Your Pets 🐾</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #ff6f61;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            margin: 10px;
+            padding: 12px 25px;
+            background: #ff6f61;
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #e04e3c;
+        }
+        .categories {
+            display: none;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .checkbox-label {
+            display: inline-block;
+            padding: 15px 25px;
+            background: #ff6f61;
+            color: #fff;
+            border-radius: 30px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+        input[type="checkbox"] {
+            display: none;
+        }
+        input[type="checkbox"]:checked + label + .categories {
+            display: block;
+        }
+        .category-header {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Shop the Best for Your Pets 🐾</h2>
+    <p>Discover top-quality pet accessories that will make your pet's tail wag with joy!</p>
+    
+    <div style="margin-top:20px;">
+        <!-- Amazon Pet Accessories Section -->
+        <input type="checkbox" id="amazonCheckbox">
+        <label class="checkbox-label" for="amazonCheckbox">Amazon Pet Accessories</label>
+        <div id="amazonCategories" class="categories">
+            <div class="category-header">Amazon Categories:</div>
+            <a class="btn" href="https://www.amazon.com/s?k=pet+food" target="_blank">Food</a>
+            <a class="btn" href="https://www.amazon.com/s?k=pet+clothes" target="_blank">Clothes</a>
+            <a class="btn" href="https://www.amazon.com/s?k=pet+toys" target="_blank">Toys</a>
+            <a class="btn" href="https://www.amazon.com/s?k=pet+soaps+shampoos" target="_blank">Personal Care</a>
+            <a class="btn" href="https://www.amazon.com/s?k=pet+beds" target="_blank">Beds</a>
+            <a class="btn" href="https://www.amazon.com/s?k=pet+grooming" target="_blank">Grooming</a>
+            <a class="btn" href="https://www.amazon.com/s?k=pet+carriers" target="_blank">Carriers</a>
+            <a class="btn" href="https://www.amazon.com/s?k=pet+bowls+feeders" target="_blank">Bowls & Feeders</a>
+            <a class="btn" href="https://www.amazon.com/s?k=pet+health+care" target="_blank">Health & Care</a>
+            <a class="btn" href="https://www.amazon.com/s?k=pet+training" target="_blank">Training</a>
+        </div>
+        
+        <!-- Flipkart Pet Accessories Section -->
+        <input type="checkbox" id="flipkartCheckbox">
+        <label class="checkbox-label" for="flipkartCheckbox">Flipkart Pet Accessories</label>
+        <div id="flipkartCategories" class="categories">
+            <div class="category-header">Flipkart Categories:</div>
+            <a class="btn" href="https://www.flipkart.com/search?q=pet+food" target="_blank">Food</a>
+            <a class="btn" href="https://www.flipkart.com/search?q=pet+clothes" target="_blank">Clothes</a>
+            <a class="btn" href="https://www.flipkart.com/search?q=pet+toys" target="_blank">Toys</a>
+            <a class="btn" href="https://www.flipkart.com/search?q=pet+soaps+shampoos" target="_blank">Personal Care</a>
+            <a class="btn" href="https://www.flipkart.com/search?q=pet+beds" target="_blank">Beds</a>
+            <a class="btn" href="https://www.flipkart.com/search?q=pet+grooming" target="_blank">Grooming</a>
+            <a class="btn" href="https://www.flipkart.com/search?q=pet+carriers" target="_blank">Carriers</a>
+            <a class="btn" href="https://www.flipkart.com/search?q=pet+bowls+feeders" target="_blank">Bowls & Feeders</a>
+            <a class="btn" href="https://www.flipkart.com/search?q=pet+health+care" target="_blank">Health & Care</a>
+            <a class="btn" href="https://www.flipkart.com/search?q=pet+training" target="_blank">Training</a>
+        </div>
+    </div>
+    
+    <p style="margin-top:20px;">
+        <em>"The love of a pet is a pure love." – Unknown</em>
+    </p>
+</body>
+</html>
